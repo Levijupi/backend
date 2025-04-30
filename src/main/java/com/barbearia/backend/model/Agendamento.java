@@ -3,6 +3,7 @@ package com.barbearia.backend.model;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name = "agendamentos")
 public class Agendamento {
 
     @Id
