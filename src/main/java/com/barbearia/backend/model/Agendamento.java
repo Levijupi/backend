@@ -8,6 +8,7 @@ public class Agendamento {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id_agendamento")
     private Long id;
 
     private String nomeCliente;
